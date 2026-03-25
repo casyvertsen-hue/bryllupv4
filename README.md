@@ -1,6 +1,5 @@
 # bryllupv4
 
-<!DOCTYPE html>
 <html lang="no">
 <head>
   <meta charset="UTF-8">
@@ -11,7 +10,7 @@
 
     header {
       position: relative;
-      background:url('bilder/header.jpg') center/cover no-repeat;
+      background:url('Kjerag') center/cover no-repeat;
       color:white;
       padding:80px 20px;
       overflow:hidden;
@@ -91,14 +90,14 @@
 
   <div class="box">
     <h2>Vårt bilde 💛</h2>
-    <img src="bilder/oss.jpg" alt="Bryllupsbilde">
+    <img src="Vin" alt="Bryllupsbilde">
   </div>
 
   <div class="box">
     <h2>Praktisk informasjon</h2>
     <p><strong>Vielse:</strong> Vestbygda kapell kl. 13:00</p>
     <p><strong>Fest:</strong> Spind grendehus AL kl. 15:00</p>
-    <p><strong>Kleskode:</strong> [Kleskode]</p>
+    <p><strong>Kleskode:</strong> Classy, men ikke for stivt</p>
   </div>
 
   <div class="box">
@@ -115,7 +114,7 @@
 
   <div class="box">
     <h2>Program</h2>
-    <p>13:00 Vielse i Vestbygda kapell<br>15:00 Fest på Spind grendehus AL<br>[Legg til mer detaljer]</p>
+    <p>13:00 Vielse i Vestbygda kapell<br>15:00 Fest på Spind grendehus<br>19:00 Festen begynner for de store <br> 05:00 Kvelden</p>
   </div>
 
   <div class="box">
@@ -136,7 +135,7 @@
 
   <div class="box">
     <h2>Kontakt</h2>
-    <p>Toastmaster: [Navn + kontakt]</p>
+    <p>Toastmastere: <br>Thea Seglem Tangen +47xxxxxxx <br>Tore Solberg Engebretsen +47xxxxxx</p>
   </div>
 
 </section>
