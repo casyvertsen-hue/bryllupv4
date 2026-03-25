@@ -10,7 +10,7 @@
 
     header {
       position: relative;
-      background:url('Kjerag') center/cover no-repeat;
+      background:url('Kjerag.JPG') center/cover no-repeat;
       color:white;
       padding:80px 20px;
       overflow:hidden;
@@ -89,8 +89,8 @@
 <section>
 
   <div class="box">
-    <h2>Vårt bilde 💛</h2>
-    <img src="Vin" alt="Bryllupsbilde">
+    <h2>Se så fine vi er 💛</h2>
+    <img src="Vin.JPG" alt="Bryllupsbilde">
   </div>
 
   <div class="box">
