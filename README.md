@@ -81,7 +81,7 @@
 <header>
   <h1>Åshild & Cedrick</h1>
   <p>Vi gifter oss!</p>
-  <p><strong>Dato:</strong> <span id="wedding-date">2026-08-15</span></p>
+  <p><strong>Dato:</strong> <span id="wedding-date">15.08.2026</span></p>
   <div id="countdown"></div>
 </header>
 
@@ -100,13 +100,13 @@
   </div>
 
   <div class="box">
-    <h2>Kart 📍 Vielse</h2>
+    <h2>📍Kart til vielsen</h2>
     <iframe src="https://www.google.com/maps?q=Vestbygda%20kapell&output=embed"></iframe>
     <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=Vestbygda+kapell" target="_blank">Få veibeskrivelse</a>
   </div>
 
   <div class="box">
-    <h2>Kart 📍 Fest</h2>
+    <h2>📍Kart til festen</h2>
     <iframe src="https://www.google.com/maps?q=Spind%20grendehus%20AL&output=embed"></iframe>
     <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=Spind+grendehus+AL" target="_blank">Få veibeskrivelse</a>
   </div>
@@ -120,10 +120,11 @@
     <h2>Overnatting</h2>
     <p>Vi anbefaler følgende overnattingssteder:</p>
     <p>
+      🏡 <a href="https://www.stayover.no/" target="_blank">Stayover @ Lista</a>
       🏨 <a href="https://www.rederiethotell.no/rom" target="_blank">Rederiet Hotell</a><br>
       🌊 <a href="https://farsundfjordhotell.no/" target="_blank">Fjordhotellet</a><br>
       ⛺ <a href="https://lomsesanden.no/" target="_blank">Lomsesanden Camping</a><br>
-      🏡 <a href="https://www.stayover.no/" target="_blank">Stayover @ Lista</a>
+      
     </p>
   </div>
 
