@@ -81,7 +81,7 @@
 <header>
   <h1>Åshild & Cedrick</h1>
   <p>Vi gifter oss!</p>
-  <p><strong>Dato:</strong> <span id="wedding-date">15.08.2026</span></p>
+  <p><strong>Dato:</strong> <span id="wedding-date">2026-08-15</span></p>
   <div id="countdown"></div>
 </header>
 
