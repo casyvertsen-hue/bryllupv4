@@ -126,7 +126,7 @@
     <p>Vi anbefaler følgende overnattingssteder:</p>
     <p>
       🏡 <a href="https://www.stayover.no/" target="_blank">Stayover @ Lista</a> <br> 
-      👆 Her har vi holdt av 22 soveplasser for billigere overnatting. <br>Dersom dette er ønskelig ta kontakt med oss for å få valgt rom/plassering 💛<br>
+      👆 Her <br> har vi holdt av 22 soveplasser for billigere overnatting. <br>Dersom dette er ønskelig ta kontakt med oss for å få valgt rom/plassering 💛<br>
       🏨 <a href="https://www.rederiethotell.no/rom" target="_blank">Rederiet Hotell</a><br>
       🌊 <a href="https://farsundfjordhotell.no/" target="_blank">Fjordhotellet</a><br>
       ⛺ <a href="https://lomsesanden.no/" target="_blank">Lomsesanden Camping</a><br>
