@@ -90,6 +90,9 @@
     font-size: 16px;
     padding: 12px 18px;
   }
+  * {
+  font-size: 18px !important;
+}
   
   </style>
 </head>
