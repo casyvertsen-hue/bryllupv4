@@ -20,7 +20,7 @@
       content:"";
       position:absolute;
       top:0; left:0; right:0; bottom:0;
-      background:rgba(0,0,0,0.45); /* ← JUSTER HER */
+      background:rgba(0,0,0,0.35); /* ← JUSTER HER */
       z-index:0;
     }
 
@@ -96,7 +96,7 @@
     <h2>Praktisk informasjon</h2>
     <p><strong>Vielse:</strong> Vestbygda kapell kl. 13:00</p>
     <p><strong>Fest:</strong> Spind grendehus AL kl. 15:00</p>
-    <p><strong>Kleskode:</strong> Classy, men ikke for stivt</p>
+    <p><strong>Kleskode:</strong> Dress og kjole, men ikke for stivt. (Ta med dansesko)</p>
   </div>
 
   <div class="box">
@@ -120,7 +120,7 @@
     <h2>Overnatting</h2>
     <p>Vi anbefaler følgende overnattingssteder:</p>
     <p>
-      🏡 <a href="https://www.stayover.no/" target="_blank">Stayover @ Lista</a>
+      🏡 <a href="https://www.stayover.no/" target="_blank">Stayover @ Lista</a> Her har vi holdt av 22 soveplasser for billigere overnatting<br>
       🏨 <a href="https://www.rederiethotell.no/rom" target="_blank">Rederiet Hotell</a><br>
       🌊 <a href="https://farsundfjordhotell.no/" target="_blank">Fjordhotellet</a><br>
       ⛺ <a href="https://lomsesanden.no/" target="_blank">Lomsesanden Camping</a><br>
