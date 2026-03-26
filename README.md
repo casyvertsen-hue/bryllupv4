@@ -32,7 +32,7 @@
       z-index:1;
     }
 
-    header h1 {font-size:36px; margin:0;}
+    header h1 {font-size:40px; margin:0;}
 
     section {padding:20px 15px; max-width:900px; margin:auto;}
 
@@ -79,8 +79,8 @@
     footer {padding:20px; font-size:14px; color:#777;}
 
     @media (min-width: 768px) {
-      header h1 {font-size:48px;}
-      #countdown {font-size:24px;}
+      header h1 {font-size:58px;}
+      #countdown {font-size:34px;}
       iframe {height:300px;}
     }
 
