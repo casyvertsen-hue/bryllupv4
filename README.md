@@ -55,8 +55,9 @@
 
     /* STØRRE RSVP-SKJEMA */
 .rsvp {
-  height:900px; /* ← JUSTER HER */
-    
+  height:1200px; /* ← JUSTER HER */
+  overflow:hidden;
+    }
     #countdown {font-size:20px; margin-top:10px;}
 
     .btn {
@@ -81,27 +82,15 @@
     }
 
     @media (max-width: 600px) {
-      body {
-      font-size: 18px; /* ← gjør all tekst større */
-    }
-
-      h1 {
-      font-size: 32px;
-    }
-
-      h2 {
-      font-size: 24px;
-    }
-
-    p {
-      font-size: 18px;
-    }
-
+  body {font-size: 18px; /* ← gjør all tekst større */}
+  h1 {font-size: 32px;}
+  h2 {font-size: 24px;}
+  p {font-size: 18px;}
   .btn {
     font-size: 16px;
     padding: 12px 18px;
   }
-}
+  
   </style>
 </head>
 <body>
