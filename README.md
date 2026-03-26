@@ -82,17 +82,15 @@
     }
 
     @media (max-width: 600px) {
-  body {font-size: 22px; /* ← gjør all tekst større */}
-  h1 {font-size: 32px;}
-  h2 {font-size: 24px;}
-  p {font-size: 18px;}
-  .btn {
-    font-size: 16px;
-    padding: 12px 18px;
-  }
-  * {
-  font-size: 18px !important;
-}
+      body {font-size: 22px; /* ← gjør all tekst større */}
+      h1 {font-size: 32px;}
+      h2 {font-size: 24px;}
+      p {font-size: 18px;}
+      .btn {
+        font-size: 16px;
+        padding: 12px 18px;
+        }
+    }
   
   </style>
 </head>
