@@ -30,7 +30,7 @@
 
     header {
       position: relative;
-      background: url('Kjerag2') center 70% /110% no-repeat;
+      background: url('Kjerag2') center 80% /100% no-repeat;
       padding: clamp(50px, 12vw, 120px) 20px;
       color: white;
       overflow: hidden;
