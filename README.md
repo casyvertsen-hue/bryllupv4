@@ -134,7 +134,7 @@
 
   <div class="box">
     <h2>Se så fine vi er 💛</h2>
-    <img src="Vin" alt="Bryllupsbilde">
+    <img src="Vin.JPG" alt="Bryllupsbilde">
   </div>
 
   <div class="box">
