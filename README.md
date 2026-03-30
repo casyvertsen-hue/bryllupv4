@@ -30,7 +30,7 @@
 
     header {
       position: relative;
-      background: url('Kjerag2') center 60% /100% no-repeat;
+      background: url('Kjerag2') center 70% /cover no-repeat;
       padding: clamp(50px, 12vw, 120px) 20px;
       color: white;
       overflow: hidden;
@@ -40,22 +40,10 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.20);
+      background: rgba(0, 0, 0, 0.38);
       z-index: 0;
     }
 
-    
-/* ⭐ SORT OUTLINE FOR TEKST (NYTT LAGT TIL HER) ⭐ */
-    header h1,
-    header p,
-    header strong,
-    #countdown {
-      text-shadow: 
-        0 0 6px rgba(0,0,0,0.9),
-        0 0 12px rgba(0,0,0,0.8);
-    }
-
-    
     header * { position: relative; z-index: 1; }
     #countdown { font-size: clamp(18px, 3vw, 30px); margin-top: 10px; font-weight: bold;}
 
@@ -63,7 +51,7 @@
       padding: 20px 15px;
       max-width: 900px;
       margin: auto;
-    } 
+    }
 
     .box {
       background: white;
