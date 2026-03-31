@@ -155,10 +155,10 @@
 
   <div class="box">
     <h2>Praktisk info</h2>
-    <strong>Kleskode:</strong> Dress og kjole – men ikke for stivt. Ta med dansesko!
-    <>Vi ønsker oss ikke gaver, men heller tjenester og hjelp til dagen <br>
-    <strong>Mat:</strong> Vi ønsker å ha tapas på selve dagen og trenger hjelp til å lage tapasretter</p>
-    <p><strong>Opp- og nedrigging:</strong> Vi trenger hjelp til å pynte, dekke på og rydde av.</p>
+    <strong>Kleskode:</strong> Dress og kjole – men ikke for stivt. Ta med dansesko!<br>
+    <br>Vi ønsker oss ikke gaver, men heller tjenester og hjelp til dagen. <br>
+    <strong>Mat:</strong> Vi ønsker å ha tapas på selve dagen og trenger hjelp til å lage tapasretter<br>
+    <strong>Opp- og nedrigging:</strong> Vi trenger hjelp til å pynte, dekke på og rydde av.
   </div>
 
   <div class="box">
@@ -182,7 +182,7 @@
     <p>
       <strong>Oss:</strong> <br>
       Åshild - 47329070 <br>
-      Cedrick - 41558641 <br>
+      Cedrick - 41558641 <br><br>
       <strong>Toastmastere:</strong><br>
       Thea Seglem Tangen — 46621279<br>
       Tore Solberg Engebretsen — 90242176
