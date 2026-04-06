@@ -69,7 +69,22 @@
       transform: translateY(0);
     }
 
-    img { max-width: 100%; border-radius: var(--radius); margin-top: 10px; }
+    img { 
+      max-width: 100%; 
+      border-radius: var(--radius); 
+      margin-top: 10px; 
+    }
+
+    /* 🔥 VIN-BILDE MED BESKJÆRING */
+    .vin-bilde {
+      width: 70%;
+      height: 300px;           /* ← JUSTER DENNE */
+      object-fit: cover;
+      object-position: center;
+      border-radius: var(--radius);
+      display: block;
+      margin: 20px auto;
+    }
 
     iframe {
       width: 100%;
@@ -101,9 +116,7 @@
 
     footer { padding: 20px; font-size: clamp(12px, 2vw, 16px); color: #777; }
 
-    /* =========================================
-          MOBIL — FULL BREDDE, KANT TIL KANT
-       ========================================= */
+    /* MOBIL */
     @media (max-width: 700px) {
 
       section {
@@ -115,6 +128,11 @@
         margin: 0 0 20px 0;
         border-radius: 0;
         padding: 20px 15px;
+      }
+
+      .vin-bilde {
+        width: 90%;
+        height: 250px; /* lavere på mobil */
       }
     }
 
@@ -132,10 +150,10 @@
 
 <section>
 
-    <div class="box">
+  <div class="box">
     <h2>Program</h2>
     <p>
-      <strong>13:00</strong> Vielse i Vestbygda kapell          <br>
+      <strong>13:00</strong> Vielse i Vestbygda kapell <br>
       <strong>15:00</strong> Festen begynner på Spind Grendehus <br>
       <strong>19:00</strong> Festen fortsetter for de store     
     </p>
@@ -156,16 +174,19 @@
   <div class="box">
     <h2>Praktisk info</h2>
     <strong>Kleskode:</strong> Dress og kjole – men ikke for stivt. Ta med dansesko!<br>
-    <br>Vi ønsker oss ikke gaver, men heller tjenester og hjelp til dagen. <br>
-    <strong>Mat:</strong> Vi ønsker å ha tapas på selve dagen og trenger hjelp til å lage tapasretter<br>
-    <strong>Opp- og nedrigging:</strong> Vi trenger hjelp til å pynte, dekke på og rydde av.
+    <strong>Drikke til maten:</strong> Det blir servert drikke til maten, utover det er det bare å ta med egen drikke til senere på kvelden.<br><br>
+    <h2>Gave:</h2> Vi ønsker oss ikke gaver, men heller et bidrag til dagen økonomisk eller praktisk. <br><br>
+    <strong>Bidrag økonomisk:</strong> Dersom du ønsker å gi et økonomisk bidrag gjerne vipps til: 41558641 eller overfør til konto: 3126.47.09884 <br> <br>
+    <strong>Bidrag praktisk: </strong> Dersom du ønsker å hjelpe til trenger vi hjelp til følgende: <br>
+    <strong>Mat:</strong> Vi ønsker tapas og trenger hjelp til retter<br>
+    <strong>Opp- og nedrigging:</strong> Vi trenger hjelp til pynting og rydding.
   </div>
 
   <div class="box">
     <h2>Overnatting</h2>
     <p>
-      🏡 <a href="https://www.stayover.no/" target="_blank">Stayover @ Lista</a>  
-      <br> 👆 22 sengeplasser holdt av 👆 <br> ta kontakt for romvalg 💛 <br> 
+      🏡 <a href="https://www.stayover.no/" target="_blank">Stayover @ Lista</a><br>
+      👆 22 sengeplasser holdt av 👆 <br> ta kontakt for romvalg 💛<br>
       🏨 <a href="https://www.rederiethotell.no/rom" target="_blank">Rederiet Hotell</a><br>
       🌊 <a href="https://farsundfjordhotell.no/" target="_blank">Fjordhotellet</a><br>
       ⛺ <a href="https://lomsesanden.no/" target="_blank">Lomsesanden Camping</a><br>
@@ -180,18 +201,18 @@
   <div class="box">
     <h2>Kontakt</h2>
     <p>
-      <strong>Oss:</strong> <br>
-      Åshild - 47329070 <br>
-      Cedrick - 41558641 <br><br>
+      <strong>Oss:</strong><br>
+      Åshild - 47329070<br>
+      Cedrick - 41558641<br><br>
       <strong>Toastmastere:</strong><br>
-      Thea Seglem Tangen - 46621279<br>
-      Tore Solberg Engebretsen - 90242176
+      Thea - 46621279<br>
+      Tore - 90242176
     </p>
   </div>
 
-    <div class="box">
+  <div class="box">
     <h2>Se så fine vi er 💛</h2>
-    <img src="Vin.JPG" alt="Bryllupsbilde">
+    <img class="vin-bilde" src="Vin.JPG" alt="Bryllupsbilde">
   </div>
 
 </section>
@@ -206,7 +227,6 @@
 
   setInterval(() => {
     const diff = weddingDate - Date.now();
-
     if (diff <= 0) {
       countdownEl.innerHTML = "🎉 Dagen er her!";
       return;
